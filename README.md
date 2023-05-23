@@ -11,7 +11,7 @@ Smallest simplest conventional commit validator to use with eg [`husky`](https:/
 ## Usage
 
 ```bash
-validate-commit-message < .git/COMMIT_EDITMSG
+npx --no validate-conventional-commit < .git/COMMIT_EDITMSG
 ```
 
 (Or simply just copy and paste the [`cli.js`](cli.js) file into your project if you want to avoid a dependency)
