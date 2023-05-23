@@ -1,0 +1,25 @@
+name: Type Checks, Published Types
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - '*'
+  pull_request:
+    branches:
+      - main
+  schedule:
+    - cron: '14 5 * * 1,3,5'
+
+permissions:
+  contents: read
+
+jobs:
+  type-check:
+    uses: voxpelli/ghatemplates/.github/workflows/type-check.yml@main
+    with:
+      ts-prebuild-script: 'build'
+      ts-versions: ${{ github.event.schedule && 'next' || '4.5,4.6,4.7,4.8,4.9,next' }}
+      ts-libs: 'es2020;esnext'
+      ts-working-directory: 'test-published-types'

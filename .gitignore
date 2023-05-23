@@ -1,0 +1,17 @@
+# Basic ones
+/coverage
+/coverage-ts
+/node_modules
+/.env
+/.nyc_output
+/test-published-types/node_modules
+
+# We're a library, so please, no lock files
+/package-lock.json
+/yarn.lock
+
+# Generated types
+*.d.ts
+*.d.ts.map
+
+# Library specific ones

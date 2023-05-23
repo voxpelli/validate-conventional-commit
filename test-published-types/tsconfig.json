@@ -1,0 +1,12 @@
+{
+  "extends": "@voxpelli/tsconfig/legacy.json",
+
+  "files": [
+    "index.js"
+  ],
+
+  "compilerOptions": {
+    "lib": ["esnext"],
+    "types": []
+  }
+}
