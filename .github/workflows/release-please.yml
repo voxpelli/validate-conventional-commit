@@ -25,4 +25,3 @@ jobs:
       releaseAs: ${{ inputs.releaseAs }}
       packageName: "validate-conventional-commit"
       bootstrapSha: 29f9a5830a2f2ff87158591bc8ff37de38c81820
-      gprPublish: true
