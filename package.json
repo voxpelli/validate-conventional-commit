@@ -1,56 +1,43 @@
 {
-  "name": "@voxpelli/node-module-template",
+  "name": "validate-conventional-commit",
   "version": "0.0.0",
-  "description": "A GitHub template repo for node modules",
-  "homepage": "http://github.com/voxpelli/node-module-template",
+  "description": "Smallest simplest conventional commit validator to use with eg Husky",
+  "homepage": "http://github.com/voxpelli/validate-conventional-commit",
   "repository": {
     "type": "git",
-    "url": "git://github.com/voxpelli/node-module-template.git"
+    "url": "git://github.com/voxpelli/validate-conventional-commit.git"
   },
-  "keywords": [],
+  "keywords": [
+    "husky",
+    "conventional-commit",
+    "commitlint",
+    "commit",
+    "git",
+    "commit-msg"
+  ],
   "author": "Pelle Wessman <pelle@kodfabrik.se> (http://kodfabrik.se/)",
-  "license": "MIT",
+  "license": "0BSD",
   "engines": {
     "node": ">=16.0.0"
   },
   "type": "module",
-  "exports": "./index.js",
-  "types": "index.d.ts",
+  "bin": {
+    "linemod": "cli.js"
+  },
   "files": [
-    "/index.js",
-    "/index.d.ts",
-    "/index.d.ts.map",
-    "lib/*.js",
-    "lib/*.d.ts",
-    "lib/*.d.ts.map"
+    "cli.js"
   ],
   "scripts": {
-    "build:0": "run-s clean",
-    "build:1-declaration": "tsc -p declaration.tsconfig.json",
-    "build": "run-s build:*",
-    "check:dependency-check": "dependency-check '*.js' 'test/**/*.js' --no-dev",
-    "check:installed-check": "installed-check -i eslint-plugin-jsdoc",
     "check:lint": "eslint --report-unused-disable-directives .",
     "check:tsc": "tsc",
-    "check:type-coverage": "type-coverage --detail --strict --at-least 99 --ignore-files 'test/*'",
-    "check": "run-s clean && run-p -c --aggregate-output check:*",
-    "clean:declarations": "rm -rf $(find . -maxdepth 2 -type f -name '*.d.ts*')",
-    "clean": "run-p clean:*",
+    "check": "run-p check:*",
     "prepare": "husky install",
-    "prepublishOnly": "run-s build",
-    "test:mocha": "c8 --reporter=lcov --reporter text mocha 'test/**/*.spec.js'",
-    "test-ci": "run-s test:*",
-    "test": "run-s check test:*"
+    "test": "run-s check"
   },
   "devDependencies": {
-    "@types/chai": "^4.3.5",
-    "@types/mocha": "^10.0.1",
     "@types/node": "^16.18.32",
     "@voxpelli/eslint-config": "^17.0.3",
     "@voxpelli/tsconfig": "^7.0.0",
-    "c8": "^7.13.0",
-    "chai": "^4.3.7",
-    "dependency-check": "^5.0.0-7",
     "eslint": "^8.41.0",
     "eslint-plugin-es-x": "^7.1.0",
     "eslint-plugin-import": "^2.27.5",
@@ -62,10 +49,7 @@
     "eslint-plugin-sort-destructure-keys": "^1.5.0",
     "eslint-plugin-unicorn": "^47.0.0",
     "husky": "^8.0.3",
-    "installed-check": "^7.1.0",
-    "mocha": "^10.2.0",
     "npm-run-all2": "^6.0.5",
-    "type-coverage": "^2.25.3",
     "typescript": "~5.0.4"
   }
 }

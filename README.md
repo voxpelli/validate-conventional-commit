@@ -1,33 +1,23 @@
-# Node Module Template
+# validate-conventional-commit
 
-A GitHub template repo for node modules
+Smallest simplest conventional commit validator to use with eg [`husky`](https://github.com/typicode/husky)
 
+[![npm version](https://img.shields.io/npm/v/validate-conventional-commit.svg?style=flat)](https://www.npmjs.com/package/validate-conventional-commit)
+[![npm downloads](https://img.shields.io/npm/dm/validate-conventional-commit.svg?style=flat)](https://www.npmjs.com/package/validate-conventional-commit)
 [![js-semistandard-style](https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg)](https://github.com/voxpelli/eslint-config)
-[![Module type: ESM](https://img.shields.io/badge/module%20type-esm-brightgreen)](https://github.com/voxpelli/badges-cjs-esm)
 [![Types in JS](https://img.shields.io/badge/types_in_js-yes-brightgreen)](https://github.com/voxpelli/types-in-js)
 [![Follow @voxpelli@mastodon.social](https://img.shields.io/mastodon/follow/109247025527949675?domain=https%3A%2F%2Fmastodon.social&style=social)](https://mastodon.social/@voxpelli)
 
 ## Usage
 
-### Simple
-
-```javascript
-import { something } from '@voxpelli/node-module-template';
-
-// Use that something
+```bash
+validate-commit-message < .git/COMMIT_EDITMSG
 ```
 
-## API
+(Or simply just copy and paste the [`cli.js`](cli.js) file into your project if you want to avoid a dependency)
 
-### `something(input, { configParam }) => Promise<output>`
+## Related modules
 
-Takes a value (`input`), does something configured by the config (`configParam`) and returns the processed value asyncly(`output`)
-
-## Similar modules
-
-* [`example`](https:/example.com/) – is similar in this way
-
-## See also
-
-* [Announcement blog post](#)
-* [Announcement tweet](#)
+* [`@commitlint/cli`](https://www.npmjs.com/package/@commitlint/cli) – a much more comprehensive and much more heavy alternative
+* [`husky`](https://github.com/typicode/husky) – my preferred git hook manager
+* [`mtfoley/pr-compliance-action`](https://github.com/mtfoley/pr-compliance-action) – an action that helps validating conventional commit style in PR:s, something this module is not really geared towards
