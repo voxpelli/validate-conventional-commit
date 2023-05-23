@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/voxpelli/validate-conventional-commit/compare/v1.0.1...v1.0.2) (2023-05-23)
+
+
+### Bug Fixes
+
+* README use instructions ([#4](https://github.com/voxpelli/validate-conventional-commit/issues/4)) ([b5f3ce0](https://github.com/voxpelli/validate-conventional-commit/commit/b5f3ce0169c20d2a1ccce07eb33cfbeeb27ea32b))
+
 ## [1.0.1](https://github.com/voxpelli/validate-conventional-commit/compare/v1.0.0...v1.0.1) (2023-05-23)
 
 
