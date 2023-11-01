@@ -22,7 +22,7 @@
   },
   "type": "module",
   "bin": {
-    "linemod": "cli.js"
+    "validate-conventional-commit": "cli.js"
   },
   "files": [
     "cli.js"
