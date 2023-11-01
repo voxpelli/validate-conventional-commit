@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/voxpelli/validate-conventional-commit/compare/v1.0.2...v1.0.3) (2023-11-01)
+
+
+### Bug Fixes
+
+* correct name for cli file in package.json ([8569f57](https://github.com/voxpelli/validate-conventional-commit/commit/8569f57ef863b113376e4777df9a6b6c4875d888))
+
 ## [1.0.2](https://github.com/voxpelli/validate-conventional-commit/compare/v1.0.1...v1.0.2) (2023-05-23)
 
 
