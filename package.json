@@ -35,21 +35,21 @@
     "test": "run-s check"
   },
   "devDependencies": {
-    "@types/node": "^16.18.32",
+    "@types/node": "^16.18.60",
     "@voxpelli/eslint-config": "^19.0.0",
-    "@voxpelli/tsconfig": "^7.0.0",
-    "eslint": "^8.43.0",
-    "eslint-plugin-es-x": "^7.1.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-jsdoc": "^46.4.6",
-    "eslint-plugin-mocha": "^10.1.0",
-    "eslint-plugin-n": "^16.0.0",
+    "@voxpelli/tsconfig": "^9.0.0",
+    "eslint": "^8.52.0",
+    "eslint-plugin-es-x": "^7.2.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-jsdoc": "^46.8.2",
+    "eslint-plugin-mocha": "^10.2.0",
+    "eslint-plugin-n": "^16.2.0",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-security": "^1.7.1",
     "eslint-plugin-sort-destructure-keys": "^1.5.0",
     "eslint-plugin-unicorn": "^48.0.1",
     "husky": "^8.0.3",
     "npm-run-all2": "^6.1.1",
-    "typescript": "~5.0.4"
+    "typescript": "~5.2.2"
   }
 }
