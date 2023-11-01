@@ -49,7 +49,7 @@
     "eslint-plugin-sort-destructure-keys": "^1.5.0",
     "eslint-plugin-unicorn": "^48.0.1",
     "husky": "^8.0.3",
-    "npm-run-all2": "^6.0.5",
+    "npm-run-all2": "^6.1.1",
     "typescript": "~5.0.4"
   }
 }
