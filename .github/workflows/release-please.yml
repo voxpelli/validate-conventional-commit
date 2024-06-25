@@ -4,12 +4,6 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch:
-    inputs:
-      releaseAs:
-        description: 'Release as version'
-        required: true
-        type: string
 
 permissions:
   contents: write
@@ -19,9 +13,5 @@ permissions:
 
 jobs:
   release-please:
-    uses: voxpelli/ghatemplates/.github/workflows/release-please.yml@main
+    uses: voxpelli/ghatemplates/.github/workflows/release-please-4.yml@main
     secrets: inherit
-    with:
-      releaseAs: ${{ inputs.releaseAs }}
-      packageName: "validate-conventional-commit"
-      bootstrapSha: 29f9a5830a2f2ff87158591bc8ff37de38c81820
