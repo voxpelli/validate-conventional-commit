@@ -31,16 +31,16 @@
     "check:lint": "eslint --report-unused-disable-directives .",
     "check:tsc": "tsc",
     "check": "run-p check:*",
-    "prepare": "husky install",
+    "prepare": "husky",
     "test": "run-s check"
   },
   "devDependencies": {
-    "@types/node": "^16.18.60",
+    "@types/node": "^16.18.101",
     "@voxpelli/eslint-config": "^20.0.0-beta.4",
-    "@voxpelli/tsconfig": "^9.0.0",
+    "@voxpelli/tsconfig": "^12.0.1",
     "eslint": "^9.6.0",
-    "husky": "^8.0.3",
-    "npm-run-all2": "^6.1.1",
-    "typescript": "~5.2.2"
+    "husky": "^9.0.11",
+    "npm-run-all2": "^6.2.0",
+    "typescript": "~5.5.2"
   }
 }
