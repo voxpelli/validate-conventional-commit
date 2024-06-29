@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.4](https://github.com/voxpelli/validate-conventional-commit/compare/v1.0.3...v1.0.4) (2024-06-29)
+
+
+### 🧹 Chores
+
+* **deps:** update dev dependencies ([57ee2dc](https://github.com/voxpelli/validate-conventional-commit/commit/57ee2dc14093d78fedfef2ef3009281d0a1b442a))
+* **deps:** update to neostandard based linting ([ab32fb7](https://github.com/voxpelli/validate-conventional-commit/commit/ab32fb780fc33e89205c3dc6a6077bbfd4841ce4))
+
 ## [1.0.3](https://github.com/voxpelli/validate-conventional-commit/compare/v1.0.2...v1.0.3) (2023-11-01)
 
 
