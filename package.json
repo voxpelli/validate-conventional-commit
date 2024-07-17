@@ -35,12 +35,12 @@
     "test": "run-s check"
   },
   "devDependencies": {
-    "@types/node": "^16.18.101",
+    "@types/node": "^16.18.102",
     "@voxpelli/eslint-config": "^20.0.0-beta.4",
     "@voxpelli/tsconfig": "^12.0.1",
     "eslint": "^9.6.0",
     "husky": "^9.0.11",
     "npm-run-all2": "^6.2.0",
-    "typescript": "~5.5.2"
+    "typescript": "~5.5.3"
   }
 }
