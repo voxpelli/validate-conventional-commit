@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.5](https://github.com/voxpelli/validate-conventional-commit/compare/v1.0.4...v1.0.5) (2024-07-17)
+
+
+### 🧹 Chores
+
+* **deps:** update type dependencies ([#15](https://github.com/voxpelli/validate-conventional-commit/issues/15)) ([a7f2b8f](https://github.com/voxpelli/validate-conventional-commit/commit/a7f2b8f3b78025e607f040933ed7f6921ac5d0f4))
+
 ## [1.0.4](https://github.com/voxpelli/validate-conventional-commit/compare/v1.0.3...v1.0.4) (2024-06-29)
 
 
