@@ -17,6 +17,7 @@ if (commitMessage.trim() === '') {
   process.exit(1);
 }
 
+// eslint-disable-next-line regexp/no-unused-capturing-group
 const conventionalCommitMessage = /^(?<type>\w+)(?:\((?<scope>\w+)\))?(?<breaking>!?): (?<description>[^\n]+)/;
 
 if (!conventionalCommitMessage.test(commitMessage)) {
