@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.5](https://github.com/voxpelli/validate-conventional-commit/compare/v1.0.4...v1.0.5) (2025-01-04)
+
+
+### 🧹 Chores
+
+* **deps:** update dependency husky to ^9.1.7 ([#18](https://github.com/voxpelli/validate-conventional-commit/issues/18)) ([dd9e2d7](https://github.com/voxpelli/validate-conventional-commit/commit/dd9e2d7803f07f4cef18a564c49d7ae3f7ab531d))
+* **deps:** update dependency npm-run-all2 to v7 ([#25](https://github.com/voxpelli/validate-conventional-commit/issues/25)) ([7322327](https://github.com/voxpelli/validate-conventional-commit/commit/732232761b3345df70d7d8fbb538a3f075b7193f))
+* **deps:** update dev dependencies ([2e143f1](https://github.com/voxpelli/validate-conventional-commit/commit/2e143f1b00dac76afab44d0e49172b1fb6c8b0dc))
+* **deps:** update linting dependencies ([#26](https://github.com/voxpelli/validate-conventional-commit/issues/26)) ([e717a61](https://github.com/voxpelli/validate-conventional-commit/commit/e717a6151948a6b66aa9a5dc2feabba5168c4a75))
+* **deps:** update type dependencies ([#15](https://github.com/voxpelli/validate-conventional-commit/issues/15)) ([a7f2b8f](https://github.com/voxpelli/validate-conventional-commit/commit/a7f2b8f3b78025e607f040933ed7f6921ac5d0f4))
+* **deps:** update type dependencies ([#22](https://github.com/voxpelli/validate-conventional-commit/issues/22)) ([2e2b015](https://github.com/voxpelli/validate-conventional-commit/commit/2e2b015eca4e5648ed10702a346644617e30ceb9))
+
 ## [1.0.4](https://github.com/voxpelli/validate-conventional-commit/compare/v1.0.3...v1.0.4) (2024-06-29)
 
 
