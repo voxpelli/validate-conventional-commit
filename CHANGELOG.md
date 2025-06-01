@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.6](https://github.com/voxpelli/validate-conventional-commit/compare/v1.0.5...v1.0.6) (2025-06-01)
+
+
+### 🧹 Chores
+
+* **deps:** update dependency @voxpelli/eslint-config to v23 ([#29](https://github.com/voxpelli/validate-conventional-commit/issues/29)) ([645ebdf](https://github.com/voxpelli/validate-conventional-commit/commit/645ebdf0406dad25402e1bf04623cf43ebf84eb1))
+* **deps:** update dependency eslint to ^9.28.0 ([#28](https://github.com/voxpelli/validate-conventional-commit/issues/28)) ([fe1193e](https://github.com/voxpelli/validate-conventional-commit/commit/fe1193edbb1b0265607de2f4e8ff5f7fa7e2d772))
+
 ## [1.0.5](https://github.com/voxpelli/validate-conventional-commit/compare/v1.0.4...v1.0.5) (2025-01-04)
 
 
