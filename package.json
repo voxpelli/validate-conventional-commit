@@ -40,7 +40,7 @@
     "@voxpelli/tsconfig": "^15.1.0",
     "eslint": "^9.28.0",
     "husky": "^9.1.7",
-    "npm-run-all2": "^7.0.2",
+    "npm-run-all2": "^8.0.4",
     "typescript": "~5.7.2"
   }
 }
