@@ -38,7 +38,7 @@
     "@types/node": "^16.18.123",
     "@voxpelli/eslint-config": "^23.0.0",
     "@voxpelli/tsconfig": "^15.1.0",
-    "eslint": "^9.28.0",
+    "eslint": "^9.30.0",
     "husky": "^9.1.7",
     "npm-run-all2": "^7.0.2",
     "typescript": "~5.7.2"
