@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.1](https://github.com/voxpelli/validate-conventional-commit/compare/v2.0.0...v2.0.1) (2026-08-03)
+
+
+### 🧹 Chores
+
+* **deps:** update dependency typescript to ~6.0.3 ([#27](https://github.com/voxpelli/validate-conventional-commit/issues/27)) ([c68348c](https://github.com/voxpelli/validate-conventional-commit/commit/c68348c6c0a1570d3af65bbf561328e0338b057f))
+
 ## [2.0.0](https://github.com/voxpelli/validate-conventional-commit/compare/v1.0.5...v2.0.0) (2026-08-03)
 
 
