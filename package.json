@@ -43,6 +43,6 @@
     "eslint": "^9.39.5",
     "husky": "^9.1.7",
     "npm-run-all2": "^9.0.3",
-    "typescript": "~6.0.0"
+    "typescript": "~6.0.3"
   }
 }
