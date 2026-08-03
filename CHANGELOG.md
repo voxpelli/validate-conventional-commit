@@ -1,5 +1,28 @@
 # Changelog
 
+## [2.0.0](https://github.com/voxpelli/validate-conventional-commit/compare/v1.0.5...v2.0.0) (2026-08-03)
+
+
+### ⚠ BREAKING CHANGES
+
+* Minimum supported Node version is now 20.0.0; Node 16 is no longer supported.
+
+### 🌟 Features
+
+* add --strict flag for exact conventional commit types ([80465a7](https://github.com/voxpelli/validate-conventional-commit/commit/80465a7e272f7ae343cf2f3cd3ccb85ea4148d1b)), closes [#21](https://github.com/voxpelli/validate-conventional-commit/issues/21)
+
+
+### 🩹 Fixes
+
+* update test:node script to target specific test file ([9c539da](https://github.com/voxpelli/validate-conventional-commit/commit/9c539da14f23dd84b2da17502f7709a7b33ec8bf))
+
+
+### 🧹 Chores
+
+* **deps:** update dependency @voxpelli/eslint-config to v23 ([#29](https://github.com/voxpelli/validate-conventional-commit/issues/29)) ([645ebdf](https://github.com/voxpelli/validate-conventional-commit/commit/645ebdf0406dad25402e1bf04623cf43ebf84eb1))
+* **deps:** update dependency eslint to ^9.28.0 ([#28](https://github.com/voxpelli/validate-conventional-commit/issues/28)) ([fe1193e](https://github.com/voxpelli/validate-conventional-commit/commit/fe1193edbb1b0265607de2f4e8ff5f7fa7e2d772))
+* updating deps + require Node &gt;=20 ([83a96cc](https://github.com/voxpelli/validate-conventional-commit/commit/83a96ccf9f69c86b6de8cb98fdb5b4ecddfe4ea7))
+
 ## [1.0.5](https://github.com/voxpelli/validate-conventional-commit/compare/v1.0.4...v1.0.5) (2025-01-04)
 
 
