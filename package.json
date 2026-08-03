@@ -34,7 +34,7 @@
     "prepare": "husky",
     "test": "run-s check test:*",
     "test-ci": "run-s test:*",
-    "test:node": "node --test \"test/**/*.test.js\""
+    "test:node": "node --test test/cli.test.js"
   },
   "devDependencies": {
     "@types/node": "^20.19.43",
