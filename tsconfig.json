@@ -1,6 +1,7 @@
 {
   "extends": "@voxpelli/tsconfig/node20.json",
   "files": [
-    "cli.js"
+    "cli.js",
+    "test/cli.test.js"
   ]
 }

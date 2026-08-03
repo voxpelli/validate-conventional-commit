@@ -29,10 +29,12 @@
   ],
   "scripts": {
     "check": "run-p check:*",
-    "check:lint": "eslint --report-unused-disable-directives .",
+    "check:lint": "eslint",
     "check:tsc": "tsc",
     "prepare": "husky",
-    "test": "run-s check"
+    "test": "run-s check test:*",
+    "test-ci": "run-s test:*",
+    "test:node": "node --test \"test/**/*.test.js\""
   },
   "devDependencies": {
     "@types/node": "^20.19.43",
