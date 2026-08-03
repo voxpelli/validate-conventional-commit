@@ -14,6 +14,12 @@ Smallest simplest conventional commit validator to use with eg [`husky`](https:/
 npx --no validate-conventional-commit < .git/COMMIT_EDITMSG
 ```
 
+Add `--strict` to also require the commit type to be one of the exact conventional commit types (`build`, `chore`, `ci`, `docs`, `feat`, `fix`, `perf`, `refactor`, `revert`, `style`, `test`), eg to catch `test:` vs `tests:` or `testing:`:
+
+```bash
+npx --no validate-conventional-commit --strict < .git/COMMIT_EDITMSG
+```
+
 (Or simply just copy and paste the [`cli.js`](cli.js) file into your project if you want to avoid a dependency)
 
 ## Related modules
