@@ -39,10 +39,10 @@
   "devDependencies": {
     "@types/node": "^20.19.43",
     "@voxpelli/eslint-config": "^25.1.0",
-    "@voxpelli/tsconfig": "^16.2.1",
+    "@voxpelli/tsconfig": "^17.0.0",
     "eslint": "^9.39.5",
     "husky": "^9.1.7",
     "npm-run-all2": "^9.0.3",
-    "typescript": "~6.0.3"
+    "typescript": "~7.0.2"
   }
 }
